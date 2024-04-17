@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             else return arr.join('')
         };
-        console.log(formatString());
+        alert(formatString());
     });
     document.getElementById('task-4-button-2').addEventListener('click', function() {
         const formatString = function (string) {
